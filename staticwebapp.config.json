@@ -7,7 +7,8 @@
         "referrer-policy": "no-referrer",
         "x-content-type-options": "nosniff",
         "x-frame-options": "DENY",
-        "permissions-policy": "geolocation=(), microphone=(), camera=()"
+        "permissions-policy": "geolocation=(), microphone=(), camera=()",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'nonce-index_nonce' 'nonce-404_nonce';"
       }
     }
   ]
